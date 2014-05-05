@@ -1,10 +1,10 @@
 platform :ios, 6.0
 
-pod 'RestKit', '~> 0.20.0rc'
+pod 'RestKit', '~> 0.23.1'
 
 # Include optional Testing and Search components
-pod 'RestKit/Testing', '~> 0.20.0rc'
-pod 'RestKit/Search', '~> 0.20.0rc'
+pod 'RestKit/Testing', '~> 0.23.1'
+pod 'RestKit/Search', '~> 0.23.1'
 
 # Import Expecta for Testing
 target :test do
