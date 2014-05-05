@@ -63,7 +63,7 @@
     
     // If appropriate, configure the new managed object.
     // Normally you should use accessor methods, but using KVC here avoids the need to add a custom class to the template.
-    [newManagedObject setValue:[NSDate date] forKey:@"timeStamp"];
+    [newManagedObject setValue:[NSDate date] forKey:@"createdAt"];
     
     // Save the context.
     NSError *error = nil;
